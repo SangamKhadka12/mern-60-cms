@@ -13,6 +13,7 @@ export default function ProductList(){
                 <th className="border p-2 bg-gray-950 text-white">Category</th>
                 <th className="border p-2 bg-gray-950 text-white">Brand</th>
                 <th className="border p-2 bg-gray-950 text-white">Price</th>
+                <th className="border p-2 bg-gray-950 text-white">Stock</th>
                 <th className="border p-2 bg-gray-950 text-white">Rating</th>
                 <th className="border p-2 bg-gray-950 text-white">Action</th>
               </tr>
@@ -24,6 +25,7 @@ export default function ProductList(){
                   <td className="border p-2 bg-white-950 text-black">Mens-Shoes</td>
                   <td className="border p-2 bg-white-950 text-black">Nike</td>
                   <td className="border p-2 bg-white-950 text-black">$150</td>
+                  <td className="border p-2 bg-white-950 text-black">Out of Stock</td>
                   <td className="border p-2 bg-white-950 text-black">***</td>
                   <td className="border p-2 bg-white-950 text-black">
                   <NavLink className={'text-teal-700 underline text-sm'} 
